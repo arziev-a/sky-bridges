@@ -1,0 +1,173 @@
+body {
+  margin: 0;
+}
+
+.nav {
+  position: fixed;
+  height: 130px;
+  width: 100%;
+  top: 0;
+  right: 0;
+  background-color: transparent;
+  -webkit-transition: 0.3s all;
+  transition: 0.3s all;
+  z-index: 2;
+  color: #ffff;
+}
+
+.nav_left img {
+  -webkit-transition: 0.3s all;
+  transition: 0.3s all;
+  margin-top: 25px;
+  width: 200px;
+}
+
+.nav_right {
+  width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav_right__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.nav_right__item:hover {
+  position: relative;
+  display: inline-block;
+}
+
+.nav_right__item:hover .dropdown-content {
+  display: block;
+}
+
+.nav_right__item:hover .dropbtn {
+  background-color: #0505052c;
+}
+
+.nav_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.home {
+  min-height: 1500px;
+}
+
+.home__slider {
+  height: 700px;
+  text-align: center;
+  color: #ffff;
+}
+
+.home__slider_1 {
+  background: url("../img/slider/university.jpg") center center/cover no-repeat;
+}
+
+.home__slider_2 {
+  background: url("../img/slider/study.jpg") center center/cover no-repeat;
+}
+
+.home__slider_3 {
+  background: url("../img/slider/career.jpg") center center/cover no-repeat;
+}
+
+.home__slider .place {
+  display: block;
+  margin: 0 auto;
+  margin-top: 250px;
+  padding: 10px;
+  border-bottom: 2px solid #6ab8ee;
+  width: 350px;
+}
+
+.home__slider .appeal {
+  font-size: 50px;
+  margin-top: 30px;
+}
+
+.home__slider .statistics {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 20px 0;
+}
+
+.home__slider .statistics div {
+  width: 180px;
+}
+
+.home__slider .statistics div span {
+  margin-right: 5px;
+}
+
+.dropbtn {
+  padding: 16px;
+  color: #fff;
+  text-decoration: underline;
+}
+
+.dropbtn img {
+  width: 50px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1b4;
+  min-width: 160px;
+  -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown-content a img {
+  width: 50px;
+}
+
+.button__slider {
+  border: none;
+  width: 200px;
+  background-color: #6ab8ee;
+  color: #ffff;
+  border-radius: 15px;
+  padding: 10px 0;
+  cursor: pointer;
+}
+
+.button__slider:hover {
+  background-color: #4895cc;
+}

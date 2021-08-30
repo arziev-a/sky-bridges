@@ -1,0 +1,14 @@
+.button{
+    &__slider{
+        border: none;
+        width: 200px;
+        background-color:$main-blue ;
+        color: #ffff;
+        border-radius: 15px;
+        padding: 10px 0;
+        cursor: pointer;
+        &:hover{
+            background-color: #4895cc;
+        }
+    }
+}
